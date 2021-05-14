@@ -8,13 +8,12 @@
     "test": "echo \"Error: no test specified\" "
   },
   "dependencies": {
+    "adaptivecards-templating": "^2.1.0",
+    "adaptive-expressions": "^4.13.3",
     "botbuilder-adapter-webex": "^1.0.9",
     "botbuilder-storage-mongodb": "^0.9.5",
     "botkit": "^4.10.0",
     "botkit-plugin-cms": "^1.0.3",
     "dotenv": "^7.0.0"
-  },
-  "devDependencies": {
-    "adaptivecards-templating": "^2.1.0"
   }
 }
