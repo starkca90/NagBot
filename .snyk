@@ -1,0 +1,12 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.19.0
+# ignores vulnerabilities until expiry date; change duration by modifying expiry date
+ignore:
+  SNYK-JS-CRYPTOJS-548472:
+    - botbuilder-adapter-webex > webex > @webex/internal-plugin-calendar > @webex/internal-plugin-conversation > crypto-js:
+        reason: None given
+        expires: '2021-06-13T15:21:52.574Z'
+    - botbuilder-adapter-webex > webex > @webex/internal-plugin-calendar > @webex/internal-plugin-conversation > @webex/internal-plugin-encryption > @webex/internal-plugin-device > @webex/webex-core > crypto-js:
+        reason: None given
+        expires: '2021-06-13T15:21:52.575Z'
+patch: {}
