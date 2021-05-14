@@ -13,5 +13,8 @@
     "botkit": "^4.10.0",
     "botkit-plugin-cms": "^1.0.3",
     "dotenv": "^7.0.0"
+  },
+  "devDependencies": {
+    "adaptivecards-templating": "^2.1.0"
   }
 }
