@@ -23,7 +23,7 @@ jobs:
       uses: docker/build-push-action@v2
       with:
         push: true
-        tags: ${{ secrets.AzureAppService_ContainerUsername_824200ce53de4823bc45f3586b0a47aa }}/registry.caseystark.com/nagbot:${{ github.sha }}
+        tags: registry.caseystark.com/nagbot:${{ github.sha }}
         file: ./Dockerfile
 
   deploy:
