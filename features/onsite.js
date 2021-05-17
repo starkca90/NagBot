@@ -20,17 +20,17 @@ module.exports = function (controller) {
                     "fields": [
                         {
                             "label": "Customer",
-                            "id": "Customer",
+                            "id": "customerOne",
                             "required": true
                         },
                         {
                             "label": "Address",
-                            "id": "Address",
+                            "id": "addressOne",
                             "required": true
                         },
                         {
                             "label": "Date",
-                            "id": "Date",
+                            "id": "dateOne",
                             "required": true
                         }
                     ]
@@ -41,17 +41,17 @@ module.exports = function (controller) {
                     "fields": [
                         {
                             "label": "Customer",
-                            "id": "Customer",
+                            "id": "customerTwo",
                             "required": true
                         },
                         {
                             "label": "Address",
-                            "id": "Address",
+                            "id": "addressTwo",
                             "required": true
                         },
                         {
                             "label": "Date",
-                            "id": "Date",
+                            "id": "dateTwo",
                             "required": true
                         }
                     ]
@@ -62,17 +62,17 @@ module.exports = function (controller) {
                     "fields": [
                         {
                             "label": "Customer",
-                            "id": "Customer",
+                            "id": "customerThree",
                             "required": true
                         },
                         {
                             "label": "Address",
-                            "id": "Address",
+                            "id": "addressThree",
                             "required": true
                         },
                         {
                             "label": "Date",
-                            "id": "Date",
+                            "id": "dateThree",
                             "required": true
                         }
                     ]
